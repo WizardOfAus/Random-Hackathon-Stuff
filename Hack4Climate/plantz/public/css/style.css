@@ -1,0 +1,33 @@
+:root {
+	--bg: #006F4E;
+}
+.posRel{position: relative !important;}
+@font-face {
+  font-family: 'RL';
+  font-weight: normal;
+  src: url(../font/Roboto-Light.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RB';
+  font-weight: normal;
+  src: url(../font/Roboto-Bold.ttf);
+  font-style: normal;
+}
+.loginBg{background-color:var(--bg);height: 100vh;display: flex;justify-content: center;position: relative;z-index: -5;}
+.App .container{padding: 0px}
+.loginRect{width: 68%;background-color: #006849;display: flex;justify-content: center;position: absolute;bottom:0;margin-left: auto;margin-right: auto;height: 70%;left: 15%;}
+.loginImg {width: 100%;margin-top: -50%;}
+.oo1{width: 100%;}
+#circle {
+	width: 200px;
+	height: 200px;
+	background: #ffffff;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	margin-top: -100px;
+}
+.navLog{position: absolute;bottom:100px;width: 50% !important;left: 25%;}
+.HC{display: none !important;}
+.myCenter{width: 100%;display: block;}
